@@ -31,7 +31,7 @@ DB_NAME = os.environ.get("Antiflix")
 FORCE_SUB_CHANNEL_1 = int(os.environ.get("-1002278892364"))
 FORCE_SUB_CHANNEL_2 = int(os.environ.get("-1002309325441"))
 FORCE_SUB_CHANNEL_3 = int(os.environ.get("-1002275175487"))
-FORCE_SUB_CHANNEL_4 = int(os.environ.get("FORCE_SUB_CHANNEL_4"))
+FORCE_SUB_CHANNEL_4 = int(os.environ.get("-1002327419520"))
 
 # Nombre de travailleurs du bot TG
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
