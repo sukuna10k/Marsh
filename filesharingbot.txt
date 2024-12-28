@@ -1,0 +1,226 @@
+[27-Dec-24 00:31:15 - INFO] - bot - Bot en cours d'exécution..!
+
+Créé par 
+https://t.me/codeflix_bots
+[27-Dec-24 00:31:15 - INFO] - bot -        
+
+
+  ___ ___  ___  ___ ___ _    _____  _____  ___ _____ ___ 
+ / __/ _ \|   \| __| __| |  |_ _\ \/ / _ )/ _ \_   _/ __|
+| (_| (_) | |) | _|| _|| |__ | | >  <| _ \ (_) || | \__  \___\___/|___/|___|_| |____|___/_/\_\___/\___/ |_| |___/
+                                                         
+ 
+                                          
+[27-Dec-24 00:31:28 - ERROR] - pyrogram.dispatcher - <ListenerTypes.MESSAGE: 'message'>
+Traceback (most recent call last):
+  File "C:\Users\Hyosh code\AppData\Roaming\Python\Python312\site-packages\pyrogram\dispatcher.py", line 349, in handler_worker
+    if await handler.check(self.client, parsed_update):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hyosh code\AppData\Roaming\Python\Python312\site-packages\pyromod\listen\message_handler.py", line 58, in check
+    await self.check_if_has_matching_listener(client, message)
+  File "C:\Users\Hyosh code\AppData\Roaming\Python\Python312\site-packages\pyromod\listen\message_handler.py", line 37, in check_if_has_matching_listener
+    listener = client.get_listener_matching_with_data(data, ListenerTypes.MESSAGE)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hyosh code\AppData\Roaming\Python\Python312\site-packages\pyrogram\sync.py", line 54, in async_to_sync_wrap
+    coroutine = function(*args, **kwargs)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hyosh code\AppData\Roaming\Python\Python312\site-packages\pyromod\listen\client.py", line 123, in get_listener_matching_with_data
+    for listener in self.listeners[listener_type]:
+                    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+KeyError: <ListenerTypes.MESSAGE: 'message'>
+[27-Dec-24 00:31:29 - ERROR] - pyrogram.dispatcher - <ListenerTypes.MESSAGE: 'message'>
+Traceback (most recent call last):
+  File "C:\Users\Hyosh code\AppData\Roaming\Python\Python312\site-packages\pyrogram\dispatcher.py", line 349, in handler_worker
+    if await handler.check(self.client, parsed_update):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hyosh code\AppData\Roaming\Python\Python312\site-packages\pyromod\listen\message_handler.py", line 58, in check
+    await self.check_if_has_matching_listener(client, message)
+  File "C:\Users\Hyosh code\AppData\Roaming\Python\Python312\site-packages\pyromod\listen\message_handler.py", line 37, in check_if_has_matching_listener
+    listener = client.get_listener_matching_with_data(data, ListenerTypes.MESSAGE)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hyosh code\AppData\Roaming\Python\Python312\site-packages\pyrogram\sync.py", line 54, in async_to_sync_wrap
+    coroutine = function(*args, **kwargs)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hyosh code\AppData\Roaming\Python\Python312\site-packages\pyromod\listen\client.py", line 123, in get_listener_matching_with_data
+    for listener in self.listeners[listener_type]:
+                    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+KeyError: <ListenerTypes.MESSAGE: 'message'>
+[27-Dec-24 00:31:29 - ERROR] - pyrogram.dispatcher - <ListenerTypes.MESSAGE: 'message'>
+Traceback (most recent call last):
+  File "C:\Users\Hyosh code\AppData\Roaming\Python\Python312\site-packages\pyrogram\dispatcher.py", line 349, in handler_worker
+    if await handler.check(self.client, parsed_update):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hyosh code\AppData\Roaming\Python\Python312\site-packages\pyromod\listen\message_handler.py", line 58, in check
+    await self.check_if_has_matching_listener(client, message)
+  File "C:\Users\Hyosh code\AppData\Roaming\Python\Python312\site-packages\pyromod\listen\message_handler.py", line 37, in check_if_has_matching_listener
+    listener = client.get_listener_matching_with_data(data, ListenerTypes.MESSAGE)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hyosh code\AppData\Roaming\Python\Python312\site-packages\pyrogram\sync.py", line 54, in async_to_sync_wrap
+    coroutine = function(*args, **kwargs)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hyosh code\AppData\Roaming\Python\Python312\site-packages\pyromod\listen\client.py", line 123, in get_listener_matching_with_data
+    for listener in self.listeners[listener_type]:
+                    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+KeyError: <ListenerTypes.MESSAGE: 'message'>
+[27-Dec-24 00:31:29 - ERROR] - pyrogram.dispatcher - <ListenerTypes.MESSAGE: 'message'>
+Traceback (most recent call last):
+  File "C:\Users\Hyosh code\AppData\Roaming\Python\Python312\site-packages\pyrogram\dispatcher.py", line 349, in handler_worker
+    if await handler.check(self.client, parsed_update):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hyosh code\AppData\Roaming\Python\Python312\site-packages\pyromod\listen\message_handler.py", line 58, in check
+    await self.check_if_has_matching_listener(client, message)
+  File "C:\Users\Hyosh code\AppData\Roaming\Python\Python312\site-packages\pyromod\listen\message_handler.py", line 37, in check_if_has_matching_listener
+    listener = client.get_listener_matching_with_data(data, ListenerTypes.MESSAGE)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hyosh code\AppData\Roaming\Python\Python312\site-packages\pyrogram\sync.py", line 54, in async_to_sync_wrap
+    coroutine = function(*args, **kwargs)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hyosh code\AppData\Roaming\Python\Python312\site-packages\pyromod\listen\client.py", line 123, in get_listener_matching_with_data
+    for listener in self.listeners[listener_type]:
+                    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+KeyError: <ListenerTypes.MESSAGE: 'message'>
+[27-Dec-24 00:31:29 - ERROR] - pyrogram.dispatcher - <ListenerTypes.MESSAGE: 'message'>
+Traceback (most recent call last):
+  File "C:\Users\Hyosh code\AppData\Roaming\Python\Python312\site-packages\pyrogram\dispatcher.py", line 349, in handler_worker
+    if await handler.check(self.client, parsed_update):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hyosh code\AppData\Roaming\Python\Python312\site-packages\pyromod\listen\message_handler.py", line 58, in check
+    await self.check_if_has_matching_listener(client, message)
+  File "C:\Users\Hyosh code\AppData\Roaming\Python\Python312\site-packages\pyromod\listen\message_handler.py", line 37, in check_if_has_matching_listener
+    listener = client.get_listener_matching_with_data(data, ListenerTypes.MESSAGE)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hyosh code\AppData\Roaming\Python\Python312\site-packages\pyrogram\sync.py", line 54, in async_to_sync_wrap
+    coroutine = function(*args, **kwargs)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hyosh code\AppData\Roaming\Python\Python312\site-packages\pyromod\listen\client.py", line 123, in get_listener_matching_with_data
+    for listener in self.listeners[listener_type]:
+                    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+KeyError: <ListenerTypes.MESSAGE: 'message'>
+[27-Dec-24 00:31:29 - ERROR] - pyrogram.dispatcher - <ListenerTypes.MESSAGE: 'message'>
+Traceback (most recent call last):
+  File "C:\Users\Hyosh code\AppData\Roaming\Python\Python312\site-packages\pyrogram\dispatcher.py", line 349, in handler_worker
+    if await handler.check(self.client, parsed_update):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hyosh code\AppData\Roaming\Python\Python312\site-packages\pyromod\listen\message_handler.py", line 58, in check
+    await self.check_if_has_matching_listener(client, message)
+  File "C:\Users\Hyosh code\AppData\Roaming\Python\Python312\site-packages\pyromod\listen\message_handler.py", line 37, in check_if_has_matching_listener
+    listener = client.get_listener_matching_with_data(data, ListenerTypes.MESSAGE)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hyosh code\AppData\Roaming\Python\Python312\site-packages\pyrogram\sync.py", line 54, in async_to_sync_wrap
+    coroutine = function(*args, **kwargs)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hyosh code\AppData\Roaming\Python\Python312\site-packages\pyromod\listen\client.py", line 123, in get_listener_matching_with_data
+    for listener in self.listeners[listener_type]:
+                    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+KeyError: <ListenerTypes.MESSAGE: 'message'>
+[27-Dec-24 00:31:29 - ERROR] - pyrogram.dispatcher - <ListenerTypes.MESSAGE: 'message'>
+Traceback (most recent call last):
+  File "C:\Users\Hyosh code\AppData\Roaming\Python\Python312\site-packages\pyrogram\dispatcher.py", line 349, in handler_worker
+    if await handler.check(self.client, parsed_update):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hyosh code\AppData\Roaming\Python\Python312\site-packages\pyromod\listen\message_handler.py", line 58, in check
+    await self.check_if_has_matching_listener(client, message)
+  File "C:\Users\Hyosh code\AppData\Roaming\Python\Python312\site-packages\pyromod\listen\message_handler.py", line 37, in check_if_has_matching_listener
+    listener = client.get_listener_matching_with_data(data, ListenerTypes.MESSAGE)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hyosh code\AppData\Roaming\Python\Python312\site-packages\pyrogram\sync.py", line 54, in async_to_sync_wrap
+    coroutine = function(*args, **kwargs)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hyosh code\AppData\Roaming\Python\Python312\site-packages\pyromod\listen\client.py", line 123, in get_listener_matching_with_data
+    for listener in self.listeners[listener_type]:
+                    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+KeyError: <ListenerTypes.MESSAGE: 'message'>
+[27-Dec-24 00:31:29 - ERROR] - pyrogram.dispatcher - <ListenerTypes.MESSAGE: 'message'>
+Traceback (most recent call last):
+  File "C:\Users\Hyosh code\AppData\Roaming\Python\Python312\site-packages\pyrogram\dispatcher.py", line 349, in handler_worker
+    if await handler.check(self.client, parsed_update):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hyosh code\AppData\Roaming\Python\Python312\site-packages\pyromod\listen\message_handler.py", line 58, in check
+    await self.check_if_has_matching_listener(client, message)
+  File "C:\Users\Hyosh code\AppData\Roaming\Python\Python312\site-packages\pyromod\listen\message_handler.py", line 37, in check_if_has_matching_listener
+    listener = client.get_listener_matching_with_data(data, ListenerTypes.MESSAGE)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hyosh code\AppData\Roaming\Python\Python312\site-packages\pyrogram\sync.py", line 54, in async_to_sync_wrap
+    coroutine = function(*args, **kwargs)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hyosh code\AppData\Roaming\Python\Python312\site-packages\pyromod\listen\client.py", line 123, in get_listener_matching_with_data
+    for listener in self.listeners[listener_type]:
+                    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+KeyError: <ListenerTypes.MESSAGE: 'message'>
+[27-Dec-24 00:31:29 - ERROR] - pyrogram.dispatcher - <ListenerTypes.MESSAGE: 'message'>
+Traceback (most recent call last):
+  File "C:\Users\Hyosh code\AppData\Roaming\Python\Python312\site-packages\pyrogram\dispatcher.py", line 349, in handler_worker
+    if await handler.check(self.client, parsed_update):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hyosh code\AppData\Roaming\Python\Python312\site-packages\pyromod\listen\message_handler.py", line 58, in check
+    await self.check_if_has_matching_listener(client, message)
+  File "C:\Users\Hyosh code\AppData\Roaming\Python\Python312\site-packages\pyromod\listen\message_handler.py", line 37, in check_if_has_matching_listener
+    listener = client.get_listener_matching_with_data(data, ListenerTypes.MESSAGE)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hyosh code\AppData\Roaming\Python\Python312\site-packages\pyrogram\sync.py", line 54, in async_to_sync_wrap
+    coroutine = function(*args, **kwargs)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hyosh code\AppData\Roaming\Python\Python312\site-packages\pyromod\listen\client.py", line 123, in get_listener_matching_with_data
+    for listener in self.listeners[listener_type]:
+                    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+KeyError: <ListenerTypes.MESSAGE: 'message'>
+[27-Dec-24 00:31:29 - ERROR] - pyrogram.dispatcher - <ListenerTypes.MESSAGE: 'message'>
+Traceback (most recent call last):
+  File "C:\Users\Hyosh code\AppData\Roaming\Python\Python312\site-packages\pyrogram\dispatcher.py", line 349, in handler_worker
+    if await handler.check(self.client, parsed_update):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hyosh code\AppData\Roaming\Python\Python312\site-packages\pyromod\listen\message_handler.py", line 58, in check
+    await self.check_if_has_matching_listener(client, message)
+  File "C:\Users\Hyosh code\AppData\Roaming\Python\Python312\site-packages\pyromod\listen\message_handler.py", line 37, in check_if_has_matching_listener
+    listener = client.get_listener_matching_with_data(data, ListenerTypes.MESSAGE)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hyosh code\AppData\Roaming\Python\Python312\site-packages\pyrogram\sync.py", line 54, in async_to_sync_wrap
+    coroutine = function(*args, **kwargs)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hyosh code\AppData\Roaming\Python\Python312\site-packages\pyromod\listen\client.py", line 123, in get_listener_matching_with_data
+    for listener in self.listeners[listener_type]:
+                    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+KeyError: <ListenerTypes.MESSAGE: 'message'>
+[27-Dec-24 00:31:29 - ERROR] - pyrogram.dispatcher - <ListenerTypes.MESSAGE: 'message'>
+Traceback (most recent call last):
+  File "C:\Users\Hyosh code\AppData\Roaming\Python\Python312\site-packages\pyrogram\dispatcher.py", line 349, in handler_worker
+    if await handler.check(self.client, parsed_update):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hyosh code\AppData\Roaming\Python\Python312\site-packages\pyromod\listen\message_handler.py", line 58, in check
+    await self.check_if_has_matching_listener(client, message)
+  File "C:\Users\Hyosh code\AppData\Roaming\Python\Python312\site-packages\pyromod\listen\message_handler.py", line 37, in check_if_has_matching_listener
+    listener = client.get_listener_matching_with_data(data, ListenerTypes.MESSAGE)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hyosh code\AppData\Roaming\Python\Python312\site-packages\pyrogram\sync.py", line 54, in async_to_sync_wrap
+    coroutine = function(*args, **kwargs)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hyosh code\AppData\Roaming\Python\Python312\site-packages\pyromod\listen\client.py", line 123, in get_listener_matching_with_data
+    for listener in self.listeners[listener_type]:
+                    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+KeyError: <ListenerTypes.MESSAGE: 'message'>
+[27-Dec-24 00:32:49 - INFO] - bot - Bot en cours d'exécution..!
+
+Créé par 
+https://t.me/codeflix_bots
+[27-Dec-24 00:32:49 - INFO] - bot -        
+
+
+  ___ ___  ___  ___ ___ _    _____  _____  ___ _____ ___ 
+ / __/ _ \|   \| __| __| |  |_ _\ \/ / _ )/ _ \_   _/ __|
+| (_| (_) | |) | _|| _|| |__ | | >  <| _ \ (_) || | \__  \___\___/|___/|___|_| |____|___/_/\_\___/\___/ |_| |___/
+                                                         
+ 
+                                          
+[27-Dec-24 00:39:05 - INFO] - bot - Bot en cours d'exécution..!
+
+Créé par 
+https://t.me/codeflix_bots
+[27-Dec-24 00:39:05 - INFO] - bot -        
+
+
+  ___ ___  ___  ___ ___ _    _____  _____  ___ _____ ___ 
+ / __/ _ \|   \| __| __| |  |_ _\ \/ / _ )/ _ \_   _/ __|
+| (_| (_) | |) | _|| _|| |__ | | >  <| _ \ (_) || | \__  \___\___/|___/|___|_| |____|___/_/\_\___/\___/ |_| |___/
+                                                         
+ 
+                                          
